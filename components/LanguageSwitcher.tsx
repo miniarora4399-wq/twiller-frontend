@@ -31,7 +31,7 @@ export default function LanguageSwitcher() {
     
     
 
-    const API = "http://localhost:5000";
+    const API = process.env.NEXT_PUBLIC_BACKEND_URL;
 
     useEffect(() => {
         setSelected(language);
