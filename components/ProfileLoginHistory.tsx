@@ -34,7 +34,7 @@ export default function ProfileLoginHistory({userId} : Props){
                 setError("");
 
                 const response = await fetch(
-                    `http://localhost:5000/login-history/${encodeURIComponent(userId)}`,
+                    `${process.env.NEXT_PUBLIC_BACKEND_URL}/login-history/${userId}`,
                     { signal: controller.signal, credentials: "include" }
                 );
 
