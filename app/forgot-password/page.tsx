@@ -8,7 +8,7 @@ export default function ForgotPassword() {
 
   const handleResetPassword = async () => {
     try {
-      const response = await axios.post("http://localhost:5000/forgot-password", { email });
+      const response = await axios.post(`${process.env.NEXT_PUBLIC_BACKEND_URL}/forgot-password`, { email });
       setMessage(response.data.message);
     } catch (error) {
       setMessage("You can use this option only one time per day.");
