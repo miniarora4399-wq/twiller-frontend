@@ -1,4 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TWILLER – SOCIAL MEDIA WEB APPLICATION
+
+## Project Description
+Twiller is a full-stack social media web application developed using Next.js, React.js, TypeScript, Node.js, Express.js, and MongoDB.
+
+## Live Website
+https://twiller-frontend-seven.vercel.app/
+
+## GitHub Repositories
+
+### Frontend
+https://github.com/miniarora4399-wq/twiller-frontend
+
+### Backend
+https://github.com/miniarora4399-wq/twiller-backend
+
+## Technologies Used
+- Next.js
+- React.js
+- TypeScript
+- Node.js
+- Express.js
+- MongoDB
+- Firebase Authentication
+- Nodemailer
+- RazorpayThis is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
